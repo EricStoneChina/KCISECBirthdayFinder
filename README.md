@@ -3,7 +3,7 @@
 
 ## 如何运行？
 下载baolipojie.py后，使用任意有网络的Python编辑器即可运行。
-`requests datetime`，这两个库是需要的。
+`requests`和`datetime`，这两个库是需要的。（安装：pip install requests）
 
 ## 警告
 由于本代码原理，因此不保证不会被封禁你的设备的IP地址，导致无法访问学校系统。
