@@ -41,9 +41,9 @@ python birthday_finder.py
 
 纯文本文件，每行一个学号，例如：
 ```
-21012345
-21016789
-21011234
+12666
+12777
+11888
 ```
 
 ### 输出结果
@@ -74,4 +74,4 @@ python birthday_finder.py
 
 ## 许可协议
 
-[MIT License](LICENSE)
+[GPL-3.0](LICENSE)
