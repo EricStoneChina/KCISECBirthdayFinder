@@ -68,8 +68,8 @@ class BirthdayFinder:
     @staticmethod
     def validate_student_number(username: str) -> bool:
         """验证学号有效性"""
-        if len(username) < 2:
-            logging.warning(f"无效学号 [{username}]: 长度不足两位")
+        if len(username) < 5:
+            logging.warning(f"无效学号 [{username}]: 长度不足五位")
             return False
         try:
             int(username[:2])
